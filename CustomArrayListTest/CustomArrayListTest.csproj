@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{45CD34A6-D309-46DE-B246-48B7DB59E0EF}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>List</RootNamespace>
-    <AssemblyName>List</AssemblyName>
+    <ProjectGuid>{3258C675-A439-4ABC-8019-42610C53A2CF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CustomArrayListTest</RootNamespace>
+    <AssemblyName>CustomArrayListTest</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\List\List.csproj">
+      <Project>{45cd34a6-d309-46de-b246-48b7db59e0ef}</Project>
+      <Name>List</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

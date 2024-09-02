@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{2C39D724-CA37-4D46-812A-EA2A20A2E90E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomArrayListTest", "CustomArrayListTest\CustomArrayListTest.csproj", "{3258C675-A439-4ABC-8019-42610C53A2CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2C39D724-CA37-4D46-812A-EA2A20A2E90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C39D724-CA37-4D46-812A-EA2A20A2E90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C39D724-CA37-4D46-812A-EA2A20A2E90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3258C675-A439-4ABC-8019-42610C53A2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3258C675-A439-4ABC-8019-42610C53A2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3258C675-A439-4ABC-8019-42610C53A2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3258C675-A439-4ABC-8019-42610C53A2CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
