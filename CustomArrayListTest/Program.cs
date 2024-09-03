@@ -28,7 +28,8 @@ namespace CustomArrayListTest
             shoppingList.DisplayList();
             Console.WriteLine("The shopping list is {0} items long", shoppingList.Count);
 
-            Console.WriteLine("Dragon Fruit is at index {0}", shoppingList.IndexOf("Dragon Fruit")); 
+            Console.WriteLine("Dragon Fruit is at index {0}", shoppingList.IndexOf("Dragon Fruit"));
+            Console.WriteLine("Water is at index {0}", shoppingList.IndexOf("Water"));
 
             Console.ReadLine();
         }
